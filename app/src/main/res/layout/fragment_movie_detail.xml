@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.detail.MovieDetailFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- TODO: Mostrar aquí los datos de la película seleccionada -->
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            tools:text="Título de ejemplo" />
+
+        <TextView
+            android:id="@+id/tvYearGenre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="2024 • Acción" />
+
+        <TextView
+            android:id="@+id/tvRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Rating: 4/5" />
+
+        <TextView
+            android:id="@+id/tvWatched"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Vista: Sí" />
+
+        <!-- TODO: Botones para marcar vista/no vista, editar y eliminar -->
+
+    </LinearLayout>
+
+</ScrollView>
